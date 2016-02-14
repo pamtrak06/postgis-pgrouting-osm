@@ -6,7 +6,7 @@ This container is build upon those images :
 - [postgres:9.4] (https://github.com/docker-library/postgres)
 - [debian:jessie] (https://github.com/tianon/docker-brew-debian/blob/0a2d20ca8e26f7bf6a5cc3ce2727eb6cc1894ef9/jessie/Dockerfile)
 
-Thos osm tools are value added in this container :
+Those osm tools are value added in this container :
 - osm2pgrouting
 > [Source : osm2pgrouting ](https://github.com/pgRouting/osm2pgrouting)
 - osm2pgsql
