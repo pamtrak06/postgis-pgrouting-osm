@@ -4,7 +4,12 @@ This container is build upon those images :
 - [starefossen/pgrouting:9.4-2.1-2.1] (https://github.com/Starefossen/docker-pgrouting)
 - [mdillon/postgis:9.4] (https://github.com/appropriate/docker-postgis)
 - [postgres:9.4] (https://github.com/docker-library/postgres)
-- [debian:jessie] (https://github.com/tianon/docker-brew-debian/blob/0a2d20ca8e26f7bf6a5cc3ce2727eb6cc1894ef9/jessie/Dockerfile)
+- [debian:jessie] (https://github.com/tianon/docker-brew-debian/blob/0a2d20ca8e26f7bf6a5cc3ce2727eb6cc1894ef9/jessie/Dockerfile) 
+
+Alternatives
+- [osm2vectortiles/import-osm] (https://hub.docker.com/r/osm2vectortiles/import-osm/) [osm2vectortiles](http://osm2vectortiles.org/)
+- [openfirmware/postgres-osm] (https://hub.docker.com/r/openfirmware/postgres-osm/)
+
 
 Those osm tools are value added in this container :
 - osm2pgrouting
