@@ -14,7 +14,6 @@ Those osm tools are value added in this container :
 
 #Alternatives
 - [osm2vectortiles/import-osm] (https://hub.docker.com/r/osm2vectortiles/import-osm/) from [osm2vectortiles](http://osm2vectortiles.org/)
-- [openfirmware/postgres-osm] (https://hub.docker.com/r/openfirmware/postgres-osm/)
 - [Imposm 3] (https://github.com/omniscale/imposm3)
 
 # How to use this image
