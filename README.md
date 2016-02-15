@@ -13,7 +13,7 @@ Those osm tools are value added in this container :
 > [Source : osm2pgsql ](https://github.com/openstreetmap/osm2pgsql)
 
 #Alternatives
-- [osm2vectortiles/import-osm from ] (https://hub.docker.com/r/osm2vectortiles/import-osm/) [osm2vectortiles](http://osm2vectortiles.org/)
+- [osm2vectortiles/import-osm] (https://hub.docker.com/r/osm2vectortiles/import-osm/) from [osm2vectortiles](http://osm2vectortiles.org/)
 - [openfirmware/postgres-osm] (https://hub.docker.com/r/openfirmware/postgres-osm/)
 
 # How to use this image
