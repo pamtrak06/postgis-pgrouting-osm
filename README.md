@@ -6,16 +6,15 @@ This container is build upon those images :
 - [postgres:9.4] (https://github.com/docker-library/postgres)
 - [debian:jessie] (https://github.com/tianon/docker-brew-debian/blob/0a2d20ca8e26f7bf6a5cc3ce2727eb6cc1894ef9/jessie/Dockerfile) 
 
-#Alternatives
-- [osm2vectortiles/import-osm] (https://hub.docker.com/r/osm2vectortiles/import-osm/) [osm2vectortiles](http://osm2vectortiles.org/)
-- [openfirmware/postgres-osm] (https://hub.docker.com/r/openfirmware/postgres-osm/)
-
-
 Those osm tools are value added in this container :
 - osm2pgrouting
 > [Source : osm2pgrouting ](https://github.com/pgRouting/osm2pgrouting)
 - osm2pgsql
 > [Source : osm2pgsql ](https://github.com/openstreetmap/osm2pgsql)
+
+#Alternatives
+- [osm2vectortiles/import-osm] (https://hub.docker.com/r/osm2vectortiles/import-osm/) [osm2vectortiles](http://osm2vectortiles.org/)
+- [openfirmware/postgres-osm] (https://hub.docker.com/r/openfirmware/postgres-osm/)
 
 # How to use this image
 
