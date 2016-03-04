@@ -12,9 +12,6 @@ Those osm tools are value added in this container :
 - osm2pgsql
 > [Source : osm2pgsql ](https://github.com/openstreetmap/osm2pgsql)
 
-For easy use of docker command, try [edocker](https://github.com/pamtrak06/edocker).
-Create your edocker.cfg configuration file (parameters for most used docker commands ) and then use edocker<command> in any docker working project container those configuration file !
-
 #Alternatives
 - [osm2vectortiles/import-osm] (https://hub.docker.com/r/osm2vectortiles/import-osm/) from [osm2vectortiles](http://osm2vectortiles.org/)
 - [nobletjulien/docker-imposm3] (https://hub.docker.com/r/nobletjulien/docker-imposm3/) from github : [Imposm 3] (https://github.com/omniscale/imposm3)
