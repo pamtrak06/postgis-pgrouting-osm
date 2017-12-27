@@ -18,15 +18,15 @@ RUN apt-get install -y libexpat1-dev zlib1g-dev \
 ENV OSM_2_PGROUTING_VERSION=2.3.3
 RUN git clone https://github.com/pgRouting/osm2pgrouting.git
 RUN cd osm2pgrouting && \
-    git fetch --all && git checkout $OSM_2_PGROUTING_VERSION && \
+    git fetch --all && git checkout v${OSM_2_PGROUTING_VERSION} && \
     cmake -H. -Bbuild && \
     cd build/ && make && make install
 
 # compile osm2pgsql
-ENV OSM_2_PGRSQL_VERSION=0.94
+ENV OSM_2_PGRSQL_VERSION=0.94.0
 RUN git clone git://github.com/openstreetmap/osm2pgsql.git && \
     cd osm2pgsql && \
-    git fetch --all && git checkout $OSM_2_PGRSQL_VERSION && \
+    git fetch --all && git checkout ${OSM_2_PGRSQL_VERSION} && \
     mkdir build && cd build && cmake .. && \
     make && make install
 
