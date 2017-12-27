@@ -1,3 +1,6 @@
+[![](https://images.microbadger.com/badges/image/pamtrak06/postgis-pgrouting-osm.svg)](https://microbadger.com/images/pamtrak06/postgis-pgrouting-osm "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/pamtrak06/postgis-pgrouting-osm.svg)](https://microbadger.com/images/pamtrak06/postgis-pgrouting-osm "Get your own version badge on microbadger.com")
+
 # What is postgis-pgrouting-osm ?
 
 This container is build upon those images :
